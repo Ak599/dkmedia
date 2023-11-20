@@ -1,0 +1,5 @@
+La page contient un titre "Mode Nuit / Mode Jour" et un bouton "Basculer en mode nuit / mode jour".
+Le style CSS par défaut de la page est un fond blanc avec un texte noir.
+Le bouton est stylé avec un fond vert et un texte blanc.
+La fonction toggleMode() est appelée lorsque le bouton est cliqué. Cette fonction récupère l'élément body de la page et ajoute ou supprime la classe night en fonction de son état actuel. La classe night définit un fond noir avec un texte blanc.
+Ainsi, lorsque le bouton est cliqué, le fond et le texte de la page basculent entre le mode nuit (fond noir avec texte blanc) et le mode jour (fond blanc avec texte noir).

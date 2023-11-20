@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let A=28
+    let B=39
+    let som=0
+    let moy=0
+    let prod=1
+     let ADJA = []
+    for(let i=A ; i<B; i++)
+    {
+          if (i%2==0)
+          {
+            ADJA.push(i)
+          }
+    }
+    console.log("le tableau est :"+ADJA)
+    /*calcule de la somme*/
+    for(let i=A ; i<B; i++)
+    {
+        if(i%2==0)
+        {
+            som= som+i
+            ADJA.push(i)
+
+        }
+         
+    }
+    console.log("la somme est "+som)
+    /*la moyenne est */
+    for(let i=A ; i<B; i++)
+    {
+        if(i%2==0)
+        {
+            moy= moy + (ADJA[i]/ADJA.length)
+            ADJA.push(i)
+        }  
+    }
+    console.log("la moyenne est:"+moy)
+    /*le produit*/
+    for(let i=A ; i<B; i++)
+    {
+        if(i%2==0)
+        {
+            prod= prod*i
+            ADJA.push(i)
+
+        }
+    }
+    console.log("le produit est:"+prod)
+   </script> 
+</body>
+</html>

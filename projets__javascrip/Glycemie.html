@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gluycemie</title>
+</head>
+<body>
+    <script>
+        /*ou bien on peut les declares sous format const les valeur
+        const limite_1=0
+        const limite_2=0.8
+        const limite_3= 2
+        */
+        a=prompt("Ajouter votre taux a")
+          if(a<=0)
+          {
+            alert("IMPOSSIBLE")
+          }
+           if(a>0 && a<0.8)
+          {
+            alert("HYP0GLYCEMIE")
+          }
+          if(a>=0.8 && a<2)
+          {
+            alert ("BON")
+          }
+          if(a>=2)
+          {
+            alert("HYPERGLYCEMIE : Trace de diabete")
+          }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ADJA=[12,23,34,56]
+        /*Afficher les elements du tableau */
+        /*console.log(" note null est :"+ADJA[0])
+        console.log("premiere  note est :"+ADJA[1])
+        console.log("deuxieme note est :"+ADJA[2])
+        console.log("troisieme note est :"+ADJA[3])*/
+
+        console.log("*************avant modification************")
+        console.log("le tableau est :"+ADJA)
+
+        console.log("*************Apres la modification**********")
+          ADJA[3]=789
+          console.log("le tableau devient :"+ADJA)
+
+          console.log("*********transformation CARRE***********")
+          ADJA[0]=ADJA[0]*ADJA[0]
+          console.log(" note est :"+ADJA[0])
+          ADJA[1]=ADJA[1]*ADJA[1]
+          console.log("premiere note est :"+ADJA[1])
+          ADJA[0]=ADJA[2]*ADJA[2]
+          console.log("deuxieme  note est :"+ADJA[2])
+          ADJA[3]=ADJA[3]*ADJA[3]
+          console.log("troisieme note est :"+ADJA[3])
+          console.log("le tableau devient encore  :"+ADJA)
+          /*l'affichage dans une boucle for*/
+          for(let i=0 ; i<ADJA.length; i++)
+          {
+            const UneADJA=ADJA[i]
+           console.log("Le tableau : "+ADJA[i])
+          }
+
+
+    </script>
+</body>
+</html>

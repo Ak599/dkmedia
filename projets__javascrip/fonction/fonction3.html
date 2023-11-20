@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var etudiants = [
+            {
+                prenom:"Adja",
+                notes:[10,17,20]
+            },
+            {
+                prenom:"Penda",
+                notes:[15,18,19]
+            }
+        ]
+        var som1=0
+        var som2=0
+        tab1=etudiants[0].notes
+        tab2=etudiants[1].notes
+          for(i=0 ; i<tab1.length; i++)
+          {
+            som1+=tab1[i]
+            moy1=som1/tab1.length
+          }
+          console.log("la moyenne  de Adja est : "+moy1)
+          for(i=0 ; i<tab2.length; i++)
+          {
+            som2+=tab2[i]
+            moy2=som2/tab2.length
+          }
+          console.log("la moyenne  de Penda est : "+moy2)
+       
+    </script>
+</body>
+</html>

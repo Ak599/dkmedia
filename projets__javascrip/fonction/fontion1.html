@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+      var personne={
+            prenom: "Adja Penda Aminata Aw",
+            nom: "KAMARA",
+            age: 20,
+            taille: 1.60,
+            poids: 58.9,
+ nomComplet: function () {
+ return this.prenom + " " + this.nom+" "+ this.age +" "+ this.taille +" "+ this.poids;
+        }
+        }
+        console.log(personne.nomComplet()) 
+        console.log("\n")
+        //avant modification//
+        console.log("**AVANT MODIFICATION**")
+        console.log("Prenom = ", personne.prenom)
+        console.log("Nom = ", personne.nom)
+        console.log("Age= ", personne.age)
+        console.log("Poids = ", personne.poids)
+        console.log("Taille = ", personne.taille)
+        console.log("\n")
+
+        /*apres mofification*/
+        personne.nom="TEUVE"
+        personne.note=21//ajouter une proprietes//
+      console.log("**APRES MODIFICATION**")
+      console.log("Prenom = ", personne.prenom)
+        console.log("Nom = ", personne.nom)
+        console.log("Age= ", personne.age)
+        console.log("Poids = ", personne.poids)
+        console.log("Taille = ", personne.taille)
+        console.log("Note=",personne.note)
+        console.log("\n")
+        for(const key in personne)
+        {
+            console.log("cle"+key)
+            console.log("valeur"+personne[key])
+        }
+
+    </script>
+</body>
+</html>

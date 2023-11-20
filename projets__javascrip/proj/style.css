@@ -1,0 +1,10 @@
+fieldset
+{
+    border: 200%;
+    height: 150px;
+    width: 400px;
+}
+legend
+{
+text-align: center;
+}
